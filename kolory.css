@@ -1,0 +1,149 @@
+*{
+    min-height: 150px;
+    min-width: 150px;
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    padding: 0px;
+    box-sizing: border-box;
+    align-items: center;
+    border-color: black;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#a1{
+grid-row: 1;
+grid-column: 1;
+background-color: silver;
+border-style: solid;
+}
+
+#a2{
+grid-row: 1;
+grid-column: 2;
+color: white;
+background-color: gray;
+border-style: solid;
+}
+
+#a3{
+grid-row: 1;
+grid-column: 3;
+color: white;
+background-color: maroon;
+border-style: solid;
+}
+
+#a4{
+grid-row: 1;
+grid-column: 4;
+color: white;
+background-color: green;
+border-style: solid;
+}
+
+#b1{
+grid-row: 2;
+grid-column: 1;
+background-color: white;
+border-style: solid;
+}
+
+#b2{
+grid-row: 2;
+grid-column: 2;
+background-color: black;
+color: white;
+border-style: solid;
+}
+
+#b3{
+grid-row: 2;
+grid-column: 3;
+background-color: red;
+border-style: solid;
+}
+
+#b4{
+grid-row: 2;
+grid-column: 4;
+background-color: lime;
+border-style: solid;
+}
+
+#c1{
+grid-row: 3;
+grid-column: 1;
+color: white;
+background-color: navy;
+border-style: solid;
+}
+
+#c2{
+grid-row: 3;
+grid-column: 2;
+color: white;
+background-color: purple;
+border-style: solid;
+}
+
+#c3{
+grid-row: 3;
+grid-column: 3;
+background-color: olive;
+color: white;
+border-style: solid;
+}
+
+#c4{
+grid-row: 3;    
+grid-column: 4;
+background-color: teal;
+color: white;
+border-style: dashed;
+border-color: white;
+}
+
+#d1{
+grid-row: 4;
+grid-column: 1;
+background-color: blue;
+color: white;
+border-style: solid;
+}
+
+#d2{
+grid-row: 4;
+grid-column: 2;
+background-color: magenta;
+border-style: solid;
+}
+
+#d3{
+grid-row: 4;
+grid-column: 3;
+background-color: yellow;
+border-style: solid;
+}
+
+#d4{
+grid-row: 4;
+grid-column: 4;
+background-color: cyan;
+border-style: solid;
+}
