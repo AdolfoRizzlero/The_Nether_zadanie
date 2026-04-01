@@ -1,0 +1,26 @@
+* {
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif;
+    background-color:aquamarine;
+    text-align: center;
+}
+
+.obrazki {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+#blok {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+img{
+    max-width: 467px;
+    max-height: 467px;
+}
+
+footer{
+    text-align: right;
+}
